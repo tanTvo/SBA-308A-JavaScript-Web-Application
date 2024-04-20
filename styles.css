@@ -2,3 +2,56 @@ body{
     background-color: #330033;
     background-image: url("https://static.vecteezy.com/system/resources/previews/004/275/701/original/fast-food-seamless-background-illustration-simple-restaurant-menu-background-vector.jpg")
 }
+body{
+    display: flex;
+    align-content: center;
+    background-color: #330033;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/275/701/original/fast-food-seamless-background-illustration-simple-restaurant-menu-background-vector.jpg")
+}
+
+  
+  h1 {
+    display: flex;
+    color: #050400;
+    font-size: 52px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .btn {
+    cursor: pointer;
+  }
+
+  #results {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 40px 0;
+  }
+  
+  #results > div {
+    background-color: #e9b673;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #results img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+  
+  
